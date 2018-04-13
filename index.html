@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>    
+    <link rel="stylesheet" href="css/default.theme.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+</head>
+<body>
+    
+   <!-- Start Our Navbar -->
+            
+           
+       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ournavbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand wobble-horizontal" href="#">Elzero <span>Inc.</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="ournavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home <span class="sr-only">(current)</span> </a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Programming</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Desktop</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Web Hosting</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div> <!-- End Of The Container -->
+        </nav>
+        <!-- End Our Navbar -->
+        
+<!-- start box tool -->
+   <section class="tool-box">
+       <div class="color-option">
+           <h4>color option</h4>
+           <ul class="list-unstyled">
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+           </ul>
+       </div>
+       <i class="gear">change</i>
+   </section>
+<!-- end box tool -->
+ <!-- start our carousle -->
+ <div id="my-slide" class="carousel hidden-xs" data-ride="carousel">
+  <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#my-slide" data-slide-to="0" class="active"></li>
+        <li data-target="#my-slide" data-slide-to="1"></li>
+        <li data-target="#my-slide" data-slide-to="2"></li>
+        <li data-target="#my-slide" data-slide-to="3"></li>
+    </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/01.jpg" alt="img1">
+      <div class="carousel-caption">
+        <div class="content">
+           <h2>programming</h2>
+            <p>
+            Transition animations not supported in Internet Explorer 8 & 9Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+            </p>
+       </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/02.jpg" alt="img2">
+      <div class="carousel-caption">
+        <div class="content">
+           <h2>web design</h2>
+            <p>
+            Transition animations not supported in Internet Explorer 8 & 9Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+            </p>
+       </div>
+      </div>
+    </div>
+    
+     <div class="item">
+      <img src="images/03.jpg" alt="img3">
+      <div class="carousel-caption">
+        <div class="content">
+           <h2>Desktop</h2>
+            <p>
+            Transition animations not supported in Internet Explorer 8 & 9Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+            </p>
+       </div>
+      </div>
+    </div>
+    
+     <div class="item">
+      <img src="images/04.jpg" alt="img4">
+      <div class="carousel-caption">
+        <div class="content">
+           <h2>Web Hosting</h2>
+            <p>
+            Transition animations not supported in Internet Explorer 8 & 9Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+            </p>
+       </div>
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#my-slide" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#my-slide" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  <!-- start about section -->
+  
+  <section class="about text-center">
+      <h1>
+        meet our new template <span>elzero inc</span>
+      </h1>
+      <p class="lead">
+          Hello Let Me Introduce Our Template Elzero Inc. Created With All The Love With <strong>Bootstrap</strong> 3.2.0
+      </p>
+  </section>
+  
+  <!-- end about section -->  
+  <!-- start our features -->
+  <section class="feat text-center">
+      <h1>our features</h1>
+      <div class="container">
+         <div class="row">
+             <div class="col-lg-3 col-md-6 check">
+                 <i class="fas fa-check fa-2x"></i>
+                 <span>100% Responsive</span>
+                 <p>
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                 </p>
+             </div>
+             <div class="col-lg-3 col-md-6 check">
+                <i class="far fa-thumbs-up fa-2x"></i>
+                <span>Retina Ready</span>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                </p>
+             </div>
+             <div class="col-lg-3 col-md-6 check"> 
+              <i class="fas fa-eye fa-2x"></i>
+                 <span>Awesome Display</span>
+                 <p>
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                 </p>
+             </div>
+             <div class="col-lg-3 col-md-6 check">
+                  <i class="fas fa-pencil-alt fa-2x"></i>
+                 <span>Well Documented</span>
+                 <p>
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                 </p>
+             </div>
+         </div> 
+      </div>
+  </section>
+   <!-- end our features -->
+   <!-- start our testmonial -->
+   
+   <section class="testmonial text-center">
+      <div class="container">
+      
+    <h1>What Our Clients Say</h1>      
+    
+<div id="our-destmonial" class="carousel slide" data-ride="carousel">
+   
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+        <p class="lead">
+        Transition animations not supported in Internet Explorer 8 & 9 Bootstrap exclusively uses CSS3 for its animations, but Internet    Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these        browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+        </p> 
+        <h3>Mustafa Salama</h3>
+    </div>
+    <div class="item">
+       <p class="lead">
+          Transition animations not supported in Internet Explorer 8 & 9 Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+       </p> 
+       <h3>elhag Salama</h3>
+    </div>
+    
+    <div class="item">
+       <p class="lead">
+         Transition animations not supported in Internet Explorer 8 & 9 Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+      </p> 
+      <h3>nahed Salama</h3>
+      </div>
+      <div class="item">
+       <p class="lead">
+          Transition animations not supported in Internet Explorer 8 & 9 Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+      </p> 
+      <h3>elham Salama</h3>
+      </div>
+    </div>
+  <!-- Controls -->
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#our-destmonial" data-slide-to="0" class="active"> 
+        <img src="images/avatar_01.jpg">
+    </li>
+    <li data-target="#our-destmonial" data-slide-to="1">
+        <img src="images/avatar_02.jpg">
+    </li>
+    <li data-target="#our-destmonial" data-slide-to="2">
+        <img src="images/avatar_03.jpg">
+    </li>
+    <li data-target="#our-destmonial" data-slide-to="3">
+        <img src="images/avatar_04.jpg">
+    </li>  
+  </ol>
+   
+   </div>
+ </div>
+</section>
+   <!-- end our testmonial -->
+   <!-- start section price -->
+   <div class="price text-center">
+       <div class="container">
+           <h1>Our Amazing Prices</h1>
+           <div class="row">
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="host">
+                      <p class="hos">hosting</p>
+                       <span>$40</span>
+                       <ul class="list-unstyled">
+                           <li>Space: 30GB</li>
+                           <li>Emails: 20</li>
+                           <li>Ips: 2 IP</li>
+                           <li>Databases: 10</li>
+                           <li>Ftp Accounts: 5</li>
+                       </ul>
+                       <button class="btn btn-primary">order now</button>
+                  </div>
+               </div>
+               
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="host">
+                      <p class="vp">vps</p>
+                       <span>$50</span>
+                       <ul class="list-unstyled">
+                           <li>Space: 30GB</li>
+                           <li>Emails: 20</li>
+                           <li>Ips: 2 IP</li>
+                           <li>Databases: 10</li>
+                           <li>Ftp Accounts: 5</li>
+                       </ul>
+                       <button class="btn btn-success">order now</button>
+                  </div>
+               </div>
+               
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="host">
+                      <p class="dedi"> Dedicated</p>
+                       <span>$60</span>
+                       <ul class="list-unstyled">
+                           <li>Space: 30GB</li>
+                           <li>Emails: 20</li>
+                           <li>Ips: 2 IP</li>
+                           <li>Databases: 10</li>
+                           <li>Ftp Accounts: 5</li>
+                       </ul>
+                       <button class="btn btn-info">order now</button>
+                  </div>
+               </div>
+               
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="host">
+                      <p class="clo"> Cloud</p>
+                       <span>$70</span>
+                       <ul class="list-unstyled">
+                           <li>Space: 30GB</li>
+                           <li>Emails: 20</li>
+                           <li>Ips: 2 IP</li>
+                           <li>Databases: 10</li>
+                           <li>Ftp Accounts: 5</li>
+                       </ul>
+                       <button class="btn btn-danger">order now</button>
+                  </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <!-- end section price -->
+   <!-- start our team -->
+   <div class="our-team text-center">
+     <div class="overlay">
+       <div class="container">
+           <h1>Meet Our Awesome Team</h1>
+           <div class="row">
+               <div class="col-lg-3 col-sm-6">
+                   <div class="team">
+                       <img src="images/chris.jpg">
+                       <h3>chris coyier</h3>
+                       <p>This Is Chris Coyier The Founder Of The Amazing Website Css-Tricks</p>
+                       <div class="awesome">
+                           <i class="fab fa-google-plus-g"></i>
+                           <i class="fab fa-facebook-f"></i>
+                           <i class="fab fa-twitter"></i>
+                           <i class="fab fa-youtube"></i> 
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-3 col-sm-6">
+                   <div class="team">
+                       <img src="images/leah.jpg">
+                       <h3>Leah Culver</h3>
+                       <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking Systems</p>
+                       <div class="awesome">
+                           <i class="fab fa-google-plus-g"></i>
+                           <i class="fab fa-facebook-f"></i>
+                           <i class="fab fa-twitter"></i>
+                           <i class="fab fa-youtube"></i> 
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-3 col-sm-6">
+                   <div class="team">
+                       <img src="images/steve.jpg">
+                       <h3>steve jobs</h3>
+                       <p>This Is The Man Who Change The World With His Apple Products</p>
+                       <div class="awesome">
+                           <i class="fab fa-google-plus-g"></i>
+                           <i class="fab fa-facebook-f"></i>
+                           <i class="fab fa-twitter"></i>
+                           <i class="fab fa-youtube"></i> 
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-3 col-sm-6">
+                   <div class="team">
+                       <img src="images/marissa.jpg">
+                       <h3>Marissa Mayer</h3>
+                       <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking Systems</p>
+                       <div class="awesome">
+                           <i class="fab fa-google-plus-g"></i>
+                           <i class="fab fa-facebook-f"></i>
+                           <i class="fab fa-twitter"></i>
+                           <i class="fab fa-youtube"></i> 
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+     </div>
+   </div>
+   <!-- end our team -->
+   <!-- start subscribe section -->
+   <div class="sub text-center">
+       <div class="container">
+           <h1>Keep In Touch</h1>
+           <p class="lead">Sign Up For Newsletter Dont Worry About Spam We Hate It Too.</p>
+           <div class="form-inline">
+                <input class="form-control input-lg" type="text" placeholder="write your email">
+                <button class="btn btn-danger btn-lg"><i class="far fa-edit"></i>
+                subscribe
+                </button>
+           </div>
+       </div>    
+   </div>
+   <!-- end subscribe section -->
+   <!-- start section static -->
+   <div class="main-static text-center">
+     <div class="overlay">
+          <div class="container">
+             <div class="static">
+                <h1>Our Main Statistics</h1>
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 hov">
+                      <i class="fas fa-users fa-4x icon"></i>
+                      <span>9,550</span>
+                      <p> Satisfied Users </p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 hov">
+                      <i class="fas fa-comments fa-4x icon"></i>
+                      <span>25,600</span>
+                      <p>  Posted Comments  </p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 hov">
+                      <i class="fas fa-suitcase fa-4x icon"></i>
+                      <span>3,260</span>
+                      <p>  Projects Done  </p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 hov">
+                      <i class="far fa-life-ring fa-5x icon"></i>
+                      <span>95,350</span>
+                      <p>  Tickets Archieved  </p>
+                  </div>
+                </div>
+             </div>
+          </div>
+     </div>
+   </div>
+   <!-- end section static -->
+   
+    <!-- Start Section Our Skills -->
+        
+        <section class="our-skills">
+            <div class="container">
+                <h2 class="text-center h1">Our Skills</h2>
+                <div class="row">
+                    
+                    <!-- Start Progress Skills -->
+                    
+                    <div class="col-md-5">
+                        <div class="skills-progress">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                    Html5 / Css3
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                    PHP / MySQL
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                    Javascript / jQuery
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                    Wordpress
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- End Progress Skills -->
+                    
+                    <!-- Start Team Info -->
+                    
+                    <div class="col-md-6 col-md-offset-1">
+                        <div class="skills-info">
+                            <h3>About The Team</h3>
+                            <p class="lead">We Are Specialised Desiging And Programming Team Passionate About Web Design And Creatin Digital Ideas We Will Transfer Your Idea To A Digital Dream And Make Your Wish Come True</p>
+                            <button type="button" class="btn btn-primary">Talk With A Professional</button>
+                        </div>
+                    </div>
+                    
+                    <!-- End Team Info -->
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!-- End Section Our Skills -->
+        
+        <!-- Start Section Contact Us -->
+        
+        <section class="contact-us text-center">
+               <div class="fields">
+                <div class="container">
+                    <div class="row">
+                        <i class="fa fa-headphones fa-5x"></i>
+                        <h2 class="h1">Tell Us What You Fell</h2>
+                        <p class="lead">Feel Free To Contact Us Anytime</p>
+                        <!-- Start Contact Form -->
+                        <form role="form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Cell Phone">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
+                            </div>
+                        </form>
+                        <!-- End Contact Form --> 
+                    </div>
+                </div>
+              </div>
+        </section>
+                  
+
+        <!-- End Section Contact Us -->
+        
+        <!-- Start Section Our Clients -->
+        
+        <div class="our-clients">
+            <div class="container">
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/bbc.png" width="126" height="28" alt="BBC" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay=".5s" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/cnn.png" width="126" height="28" alt="CNN" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="1s" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/forbes.png" width="126" height="28" alt="Forbes" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="1.5s" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/wired.png" width="126" height="28" alt="Wired" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="2s" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/wsj.png" width="126" height="28" alt="WSJ" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="2.5s" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" src="images/our-clients/techradar.png" width="126" height="28" alt="Tech Radar" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="3s" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- End Section Our Clients -->
+        
+        <!-- Start Ultimate Footer Section -->
+        
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Sitemap</h3>
+                        <ul class="list-unstyled three-columns">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Company</li>
+                            <li>Code</li>
+                            <li>Design</li>
+                            <li>Host</li>
+                            <li>Solutions</li>
+                            <li>Sitemap</li>
+                            <li>Contact</li>
+                        </ul>
+                        <ul class="list-unstyled social-list">
+                            <li><img src="images/social-bookmarks/facebook.png" width="48" height="48" alt="Facebook" /></li>
+                            <li><img src="images/social-bookmarks/gplus.png" width="48" height="48" alt="Google Plus" /></li>
+                            <li><img src="images/social-bookmarks/twitter.png" width="48" height="48" alt="Twitter" /></li>
+                            <li><img src="images/social-bookmarks/pinterest.png" width="48" height="48" alt="Pinterest" /></li>
+                            <li><img src="images/social-bookmarks/rss.png" width="48" height="48" alt="Rss" /></li>
+                            <li><img src="images/social-bookmarks/email.png" width="48" height="48" alt="Email" /></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Latest Articles</h3>
+                        
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="images/articles/01.jpg" width="64" height="64" alt="Image 01" />
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Programming
+                                </h4>
+                                This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+                            </div>
+                        </div>
+                        
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="images/articles/02.jpg" width="64" height="64" alt="Image 02" />
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Coding
+                                </h4>
+                                This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+                            </div>
+                        </div>
+                        
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="images/articles/03.jpg" width="64" height="64" alt="Image 03" />
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Web Design
+                                </h4>
+                                This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Our Awesome Work</h3>
+                        <img class="img-thumbnail" src="images/work/01.jpg" width="150" height="100" alt="Image 01" />
+                        <img class="img-thumbnail" src="images/work/02.jpg" width="150" height="100" alt="Image 02" />
+                        <img class="img-thumbnail" src="images/work/03.jpg" width="150" height="100" alt="Image 03" />
+                        <img class="img-thumbnail" src="images/work/04.jpg" width="150" height="100" alt="Image 04" />
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center">
+                Copyright &copy; 2014 <span>Your Template Name</span> .Inc
+            </div>
+        </section>
+        
+        <!-- End Ultimate Footer Section -->
+    
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/fontawesome-all.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
